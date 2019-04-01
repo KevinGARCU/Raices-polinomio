@@ -5,9 +5,9 @@
  */
 package raices.grado.pkg3;
 
-import MVC.Controlador;
-import MVC.Modelo;
-import MVC.Vista;
+import Logica.Controlador;
+import Logica.polinomioGrado3;
+import Logica.Vista;
 
 /**
  *
@@ -20,7 +20,7 @@ public class RaicesGrado3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Modelo m = new Modelo();
+        polinomioGrado3 m = new polinomioGrado3();
         Vista v = new Vista();
         Controlador c = new Controlador(v, m);
         v.asignaOyentes(c);
